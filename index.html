@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Streaming NL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="login" class="centered">
+    <h1>Bem-vindo ao NL Streaming</h1>
+    <p>Digite seu CPF para continuar:</p>
+    <input type="text" id="cpf" placeholder="Digite apenas números..." />
+    <button onclick="verificarCPF()">Entrar</button>
+    <p id="erro" class="erro"></p>
+  </div>
+
+  <div id="conteudo" class="hidden">
+    <h1>🎬 Catálogo de Vídeos</h1>
+    <div class="grid">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/ysz5S6PUM-U" frameborder="0" allowfullscreen></iframe>
+        <p>Vídeo de Exemplo 1</p>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allowfullscreen></iframe>
+        <p>Vídeo de Exemplo 2</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

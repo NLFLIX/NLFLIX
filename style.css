@@ -1,0 +1,47 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+.centered {
+  margin-top: 15%;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 220px;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.erro {
+  color: orange;
+  margin-top: 10px;
+}
+.hidden {
+  display: none;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.video {
+  width: 320px;
+}
+iframe {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+}
